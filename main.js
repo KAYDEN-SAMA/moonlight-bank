@@ -93,8 +93,8 @@ function createDialog(statut, userData){
     const warningsParagraph = document.createElement('p');
     
     usernameParagraph.textContent = `مرحبا بك ${userData.username}`;
-    balanceParagraph.textContent = `لديك ${userData.balance}`;
-    warningsParagraph.textContent = `لديك ${userData.warnings}`;
+    balanceParagraph.textContent = `لديك ${userData.balance}` عملة;
+    warningsParagraph.textContent = `لديك ${userData.warnings} إنذار`;
     
     dialog.appendChild(usernameParagraph);
     dialog.appendChild(balanceParagraph);
